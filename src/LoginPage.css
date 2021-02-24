@@ -1,0 +1,142 @@
+html,body{
+    height: 100%;
+    overflow: auto;
+}
+input {
+    margin: 10px;
+    word-spacing: 5px;
+}
+#particles-js{
+    background-image: url('me.jpg');
+    
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    }
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.my-form{
+    /* align-items: center;
+    display: flex;
+    flex-direction: column; */
+    height: 310px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0 ,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0 ,0,1);
+    color: #fff;
+    padding-top: 60px;
+}
+    
+.my-form .form-group{
+    
+    align-content: center;
+}
+.my-form input{
+    /* padding: 5px;
+    text-align: center;
+    background-color:lightgray; */
+width: 200px;
+margin-top: 20px;
+background: transparent;
+outline: none;
+padding: 10px;
+font-size: 13px;
+box-shadow: 0 0 4px #fff;
+transition: box-shadow 0.5s ease;
+
+
+
+}
+.my-form input[type="submit"]{
+    /* background-color: #333;
+    color: #fff;
+    padding: 10px 15px; */
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #fff;
+    cursor: pointer;
+    color: #fff
+}
+input[placeholder]:focus{
+    color: #fff;
+}
+input:focus .button:hover{
+    box-shadow: 0 0 10px #fff;
+}
+
+.container{
+    flex-direction: row;
+    display: flex;
+    height: 100%;
+    overflow: auto;
+}
+#leftDiv{
+    /* width: 20%;
+    min-width: 10 0px;
+    background-color: gray;
+    color: greenyellow;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center; */
+    width: 200px;
+    height: 92%;
+    margin: 20px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: 0 0 4px #fff;
+    transition: box-shadow 0.5s ease;
+    
+}
+.newdiv:hover{
+    background-color: black;
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
+
+#rightDiv{
+    /* border: black 1px solid;
+    box-sizing: border-box;
+    flex:1 1 0; */
+    width: 100%;
+    margin: 20px 30px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: 0 0 4px #fff;
+    transition: box-shadow 0.5s ease;
+    color: #fff;
+    font-size: 20px;
+}
+#rightDiv p{
+    height: 100%;
+    width: 100%;
+}
+.newdiv{
+    /* color: blue;
+    background-color: chartreuse;
+    margin: 10px 5px; */
+    width: 100px;
+    margin: 20px 30px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    box-shadow: 0 0 4px #fff;
+    transition: box-shadow 0.5s ease;
+    color: #fff;
+}

@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0  ;
+}
+/***********  Header css **************/
+#header{
+    height: 70px;
+    width: 100%;    
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);       
+}
+#home{
+    float: left;
+    margin-left: 100px;
+}
+#logout{
+    float: right;
+    margin-right: 100px;
+}
+/* ========================================= */
+/* ************** Home page Footer ****************** */
+#main{
+    min-height:calc(100% - 70px);
+    width: 100%;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-content: center;
+flex-wrap: wrap;
+}
+#Box{
+    height: 297px;
+    width: 800px;
+    border-radius: 80px;
+    background-image: linear-gradient(
+135deg
+, #667eea 0%, #764ba2 100%);
+padding: 20px;
+margin-top: 50px;
+}
+#Box_internal{
+    border: 1px solid black;
+    height: 250px;
+    width: 756px;
+    margin: 20px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+/* ================================================================     */
+#EmployeeMainBoxmain{
+    min-height:calc(100% - 70px);
+    width: 100%;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    
+}
+#EmployeeMainBox{
+    height: 100%;
+    width: 100%;
+}
+#Employeeinfo{
+    height: 50px;
+    width: 99%;
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    font-size: 20px;
+    padding-left: 20px;
+}
+#EmployeeinfoBox{
+    height: 880px;
+    width: 100%;
+    padding-top: 10px;
+    }
+#buttons{
+    height: 30px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+margin-left: 10px;
+}
+.inputs{
+    margin-left: 15px;
+    font-size: 20px;
+}
+#EmployeeinfoBoxusername{
+    font-size: 30px;
+    
+    line-height: 50PX;
+    
+}
+#Employeeinfobottom{
+    height: 70px;
+    width: 99%;
+    margin-left: 10PX;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+
+}
+#EmployeeCredentialInfobox{
+display: grid;
+grid-template-columns: 165px 379px 477px 450px 423px ;
+grid-template-areas: 
+"userinfo5 userinfo1 userinfo2 userinfo3 userinfo4  ";
+}
+#userinfo1{
+    margin-left: 205px;
+    grid-area: userinfo1;
+}
+#userinfo2{
+    margin-left: 205px;
+    grid-area: userinfo2;
+}
+#userinfo3{
+    margin-left: 205px;
+    grid-area: userinfo3;
+}
+#userinfo4{margin-left: 205px;
+    grid-area: userinfo4;
+}
+
+#userinfo5{
+    float: left;
+    font-size: 20px;
+    margin-left: 50PX;
+    line-height: 45PX;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    grid-area: userinfo5;
+}
+.ename{
+    float: left;
+    margin-left: 300px;
+    font-size: 30px;
+    line-height: 45PX;
+
+}
+
+
+#Attendace{
+    height: 600px;
+    width: 99%;
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);      
+}
+#arrows{
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    float: left;
+}
+#arrows1{
+    height: 45px;
+    width: 280px;
+    margin-left: 100px;
+    font-size: 25px;
+    line-height: 35px;
+    float: left;
+    font-weight: bold;
+}
+.entery{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 250px;
+    float: left;
+
+}
+.entery1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 280px;
+    float: left;
+}
+.entery2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 400px;
+    float: left;
+}
+.entery3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 430px;
+    float: left;
+}
+#enteryBox{
+    height: 50px;
+    width: 2030px;
+    border: 1px solid black;
+    line-height: 50px;
+    margin-left: 20px;
+    
+}

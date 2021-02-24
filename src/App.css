@@ -1,0 +1,66 @@
+.body ,html{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.main_div{
+background-color: gray;
+height: 1000px;
+padding-top: 10%;
+}
+.center_div{
+  height: 500px;
+  width:500px;
+  border: 1px black solid;
+  background-color: greenyellow;
+  align-items: center;
+  margin-left: 40%;
+  
+}
+#header{
+  border: 1px black solid;
+  background-color: orange;
+  height: 50px;
+  width: 333px;
+  line-height: 10px;
+  padding-left: 33%;
+}
+input{
+  height: 26px;
+    width: 216px;
+    margin-left: 25%;    
+}
+button{
+  height: 32px;
+    width: 30px;
+}
+ol{  
+  margin-left: 8%;
+  font-size: xx-large;
+  text-transform: capitalize;
+}
+
+
+.todo_style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: cornsilk;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    float: left;
+}
+.todo_style .fa-times:hover .list-style{
+color: crimson;
+}
+.todo_style .fa-times:hover{
+  background-color: crimson;
+}
+#delete{
+  float: left;
+}
