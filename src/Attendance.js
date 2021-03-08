@@ -29,14 +29,14 @@ const Attendace = ({change,logout}) => {
                     <div className="ename">Logout Time</div>
                     <div className="ename">Total Working Hour</div>
                 </div>
-                <div>
-                    {data.map((keys) => {
+                <div className={'attandanceWrapper'}>
+                    {data && data.map((keys) => {
                         return (
                             <div id="enteryBox">
                                 <div className="entery">{keys.Date}</div>
-                                <div className="entery1">{keys.LoginTime}</div>
-                                <div className="entery2">{keys.LogoutTime}</div>
-                                <div className="entery3">{keys.TotalHour}</div>
+                                <div className="entery">{keys.LoginTime}</div>
+                                <div className="entery">{keys.LogoutTime}</div>
+                                <div className="entery">{keys.TotalHour}</div>
                                 <br />
                             </div>
                         )
