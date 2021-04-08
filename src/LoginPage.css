@@ -7,7 +7,7 @@ input {
     word-spacing: 5px;
 }
 #particles-js{
-    background-image: url('me.jpg');
+    background-image: url('EmployeeTrackingSytemLogin.png');
     
     background-size: cover;
     text-align: center;
@@ -16,20 +16,24 @@ input {
 #container{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
     transform: translate(-50%,-50%);
+}
+h3{
+    color: black;
+    font-size: 30px;
 }
 .my-form{
     /* align-items: center;
     display: flex;
     flex-direction: column; */
     height: 310px;
-    width: 270px;
+    width: 400px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(0,0 ,0,0.1);
+    /* background: rgba(0,0 ,0,0.1); */
     box-shadow: 0 0 10px rgba(0,0 ,0,1);
     color: #fff;
     padding-top: 60px;
@@ -44,12 +48,13 @@ input {
     text-align: center;
     background-color:lightgray; */
 width: 200px;
+
 margin-top: 20px;
 background: transparent;
 outline: none;
 padding: 10px;
 font-size: 13px;
-box-shadow: 0 0 4px #fff;
+box-shadow: 0 0 4px rgb(37, 35, 35);
 transition: box-shadow 0.5s ease;
 
 
@@ -63,9 +68,10 @@ transition: box-shadow 0.5s ease;
     margin-top: 30px;
     background: transparent;
     border-radius: 30px;
-    box-shadow: 0 0 4px #fff;
+    box-shadow: 0 0 4px rgb(63, 61, 61);
     cursor: pointer;
-    color: #fff
+    color:black;
+    height: 40px;
 }
 input[placeholder]:focus{
     color: #fff;

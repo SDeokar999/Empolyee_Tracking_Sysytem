@@ -4,11 +4,12 @@ import reportWebVitals from './reportWebVitals';
 import EmployeeCredential from './EmployeeCredential';
 import Attendace from './Attendance';
 import Container from './Container';
-
+import MainPage from './MainPage';
+import NewLoginPage from './NewLoginPage';
 
 
 ReactDOM.render(
-<Container/>
+<MainPage/>
 ,
   document.getElementById('root')
 );

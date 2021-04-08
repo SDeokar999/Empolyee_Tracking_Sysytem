@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    width: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-size: cover;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.main-image{
+    height: 100%;
+    width: 100%;
+    background-image: url("EmployeeTrackingSystem.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.main-text{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    top: 5%;
+    left: 85%;
+    font-size: 35px;
+    font-weight: bolder;
+    border: 3px gray dashed;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.main-text:hover{
+    background-color: oldlace;
+    background: rgb(235, 230, 230); /* Fallback color */
+  background: rgba(252, 251, 251, 0.5); /* Black background with 0.5 opacity */
+  /* color: #f1f1f1; */
+}
+.main-text1{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    top: 5%;
+    left: 85%;
+    font-size: 35px;
+    font-weight: bolder;
+    border: 3px gray dashed;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.main-text1:hover{
+    background-color: oldlace;
+    background: rgb(235, 230, 230); /* Fallback color */
+  background: rgba(252, 251, 251, 0.5); /* Black background with 0.5 opacity */
+  /* color: #f1f1f1; */
+}
